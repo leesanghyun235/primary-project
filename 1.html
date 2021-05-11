@@ -4,21 +4,26 @@
     <title>Sang Hyun Lee</title>
     <meta charset="utf-8">
     <style type="text/css">
-      h1{font-size:40px; text-align:center;
-       }
-      a{color:blue;
-        text-decoration:none; text-shadow: 1px 1px 1px blue;}
-    </style>
+    .s1{text-decoration:none; text-align:left top; border-bottom: 1px solid black; color:#FFEBCD; text-align:center;
+      margin:0; text-shadow: 2px 2px black; padding-bottom: 20px;}
+    a{text-decoration:none; text-align:left; color:#D2691E;}
+    .s2{border-right:solid 1px black; margin:0; padding-left:30px; padding-top:20px; padding-right:10px; width:90px; }
+    body{margin:0;}
+    .logo{width:70px; display:inline; margin-left:0px; margin-top:20px; padding-top:10px;}
+    .contents{display:grid; grid-template-columns: 180px 1fr;}
+  </style>
   </head>
   <body>
-    <h1><a class="sh" href="1.html">이상현에 대하여</a></h1>
-    <ol>
-      <li><a class="sh" href="1.사진.html">사진</a></li>
-      <li><a class="sh" href="2.집 위치.html">집 위치</a></li>
-      <li><a class="sh" href="3.가족.html">가족</a></li>
-      <li><a class="sh" href="4.년혁.html">년혁</a></li>
-      <li><a class="sh" href="5.계기.html">계기</a></li>
+    <h1 class="s1" ><a href="1.html"><img src="달.jpg" class="logo">이상현에 대하여</a></h1>
+    <div class="contents">
+      <ol class="s2">
+      <li><a href="1.사진.html">사진</a></li>
+      <li><a href="2.집 위치.html">집 위치</a></li>
+      <li><a href="3.가족.html">가족</a></li>
+      <li><a href="4.년혁.html">년혁</a></li>
+      <li><a href="5.계기.html">계기</a></li>
     </ol>
+
     <p> 논쟁하려면 성질을 죽여라.<br>네가 조금이라도 논리적이라면 그 <strong>논리</strong>는 자연스레 드러날 것이다.</p>
     <p>
       <div id="disqus_thread"></div>
@@ -41,6 +46,7 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
+  </div>
   </body>
 
 </html>
